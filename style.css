@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+}
+
+body {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    color: white;
+    background-color: rgb(63, 61, 61);
+}
+h1 {
+    text-align: center;
+    background-color: black;
+    color: pink;
+    margin: 0%;
+    font-size: 35px;
+    font-weight: 1000;
+    padding: 1.5rem;
+}
+
+nav ul {
+    display: block;
+    text-align: center;
+    background-color: pink;
+    list-style-type: none;
+    padding: 1em;
+}
+nav ul li {
+    display: inline-block;
+    margin-inline: 2rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+nav ul li a:hover {
+    color: white;
+}
+main {
+    padding-inline: 3rem;
+}
+.prof-pic {
+    width: 15em;
+    height: 15em;
+    background-color: rgb(246, 241, 241);
+    border: 1px solid #000;
+    margin: 0px 10px 10px 0px;
+    float: left;
+}
+p {
+    margin-top: 13px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+.my-info p {
+    line-height: 0.5em;
+    margin-bottom: 1.5em;
+    text-align: justify;
+}
+article {
+    padding-bottom: 1em;
+    border-bottom: 1px solid #000;
+}
+.my-info {
+    list-style-type: none;
+    padding: 0.5em 1.5em 0.5em 1em ;
+}
+
+.my-info li {
+    display: block;
+}
+
+.label {
+    font-weight: bold;
+}
+.head {
+    display: flex;
+}
+.content {
+    column-count: 2;
+    column-gap: 2rem;
+}
+h2{
+    margin-block: 10px;
+    padding: 1em 1em 0em 0em;
+    
+}
+
+h3 {
+    margin-block: 10px;
+    
+}
+.my-hobbies {
+    list-style-type: square;
+    list-style-position: inside;
+    line-height: 2em;
+}
+figure {
+    display: flex;
+}
+figure img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 20vw;
+}
+
+figure figcaption {
+    line-height: 1.5em;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+}
+footer p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+}
